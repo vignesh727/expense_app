@@ -1,0 +1,164 @@
+.center{
+    display: flex;
+    justify-content: center;
+}
+
+.expense_details_overdiv{
+    border: 4px solid #a892ee;
+    border-radius: 15px;
+    padding: 20px;
+    background-color: #a892ee;
+    width: 100%;
+    max-width: 640px;
+}
+
+.add_expense_btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #a892ee;
+}
+
+.add_expense_btn button{
+    background-color:#40005d;
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #40005d;
+    color: #fff;
+    font-weight: 500px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.d_flex{
+    display: flex;
+}
+
+.expense_details_date{
+    margin-top: 10px;
+}
+
+.expense_details_date div{
+    text-align: start;
+}
+
+.expense_details_btn{
+    display: flex;
+   justify-content: end;
+}
+
+.expense_details_label{
+    text-align: start;
+}
+
+label{
+    font-size: 18px;
+    font-weight: 800;
+    color: black;
+}
+
+.expense_details_input{
+    padding: 10px 20px 10px 0px;
+}
+
+.expense_details_input input{
+    height: 35px;
+    width: 300px;
+    border-radius: 5px;
+    border: 1px solid black;
+}
+
+
+.expense_details_btn div{
+    padding: 0px 10px 0px 10px;
+}
+
+.expense_details_btn button{
+    width:110px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid black;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    background-color: #40005d;
+}
+
+.expense_data_overview{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.expense_data_div{
+    width: 100%;
+    max-width: 670px;
+    height: auto;
+    border: 1px solid rgb(19, 14, 14);
+    border-radius: 10px;
+    padding: 0px 20px 0px 20px;
+    background-color: rgb(19, 14, 14);
+}
+
+.filter_div_name{
+    color:wheat;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.expense_data_filter{
+    display: flex;
+    justify-content: space-between;
+}
+
+select{
+    width:100px;
+    height: 40px;
+    margin-top: 18px;
+    border-radius: 5px;
+}
+
+
+.expense_list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #4b4b4b;
+    padding: 10px;
+    border-radius: 10px;
+    margin-bottom: 15px;
+}
+
+.expense_date{
+    width: 65px;
+    line-height: 0px;
+    padding: 5px;
+    border: 3px solid #fff;
+    border-radius: 10px;
+    background-color: rgb(19, 14, 14);
+}
+
+.expense_date h5,h3, h4{
+    color: #fff;
+}
+
+.expense_title h5{
+    color: #fff;
+    font-size: 20px;
+}
+
+.expense_amt{
+    height: 44px;
+    width: 120px;
+    border-radius: 10px;
+    border: 1px solid #40005d;
+    background-color: #40005d;
+    color: #fff;
+    font-weight: 700px;
+    font-size: 17px;
+}
+
+.no_data{
+    color: #fff;
+    padding:0px 20px 20px 20px;
+}
